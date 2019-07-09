@@ -13,7 +13,7 @@ KEYWORDS = ', '.join([
     'HUPO PSI-MS',
 ])
 
-with open('README.MD') as f:
+with open('README.MD',encoding = 'utf-8') as f:
     long_description = f.read()
 
 setup(
